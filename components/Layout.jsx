@@ -10,7 +10,7 @@ const Layout = ({children}) => {
         <Head>
           <title>Tasks Web</title>
           <link rel="manifest" href="/manifest.json" />
-          <script src="/app.js"></script>
+          <script src="/app.js" async />
         </Head>
         <Navbar/>
         {children}
