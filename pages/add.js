@@ -52,6 +52,7 @@ const Add = ({data}) => {
                     size='lg'
                     className='text-white'
                     labelStyle={{"color": "white"}}
+                    autoComplete="off"
                     onChange={handleChange} />
                   <MDBBtn
                     outline

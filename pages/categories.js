@@ -73,6 +73,7 @@ const Categories = ({data}) => {
                     size='lg' 
                     className='text-white'
                     labelStyle={{"color": "white"}}
+                    autoComplete="off"
                     onChange={handleChange} />
                   <MDBBtn outline rounded color='light' className='mt-4' style={{"float": "right"}} type="submit">
                     Add Category
