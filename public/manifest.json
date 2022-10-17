@@ -4,8 +4,8 @@
   "short_name": "Tasks Web",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#FFFFFF",
-  "theme_color": "#FFFFFF",
+  "background_color": "#27292b",
+  "theme_color": "#27292b",
   "orientation": "portrait",
   "icons": [
     {
