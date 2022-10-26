@@ -55,8 +55,8 @@ const Categories = ({data}) => {
       <h1 className="mt-2 mb-4" style={{"color": "whitesmoke"}}>Categories</h1>
       <MDBContainer>
         <MDBRow className='mb-3'>
-          <MDBCol sm='4'></MDBCol>
-          <MDBCol sm='4'>
+          <MDBCol lg='4'></MDBCol>
+          <MDBCol lg='4'>
             <MDBCard
             className="mt-2 mb-4"
             background='dark'
@@ -107,7 +107,7 @@ const Categories = ({data}) => {
               </div>
             </div>
           </MDBCol>
-          <MDBCol sm='4'></MDBCol>
+          <MDBCol lg='4'></MDBCol>
         </MDBRow>
       </MDBContainer>
     </div>

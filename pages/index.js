@@ -29,9 +29,9 @@ const Home = ({data}) => {
       <h1 className="mt-2 mb-4" style={{"color": "whitesmoke"}}>{data.categoryName}</h1>
       <MDBContainer>
           <MDBRow className='mb-3'>
-            <MDBCol sm='4'></MDBCol>
+            <MDBCol lg='4'></MDBCol>
             {data.task_list.length === 0 ? (
-              <MDBCol sm='4'>
+              <MDBCol lg='4'>
                 <MDBCard 
                   className="m-4"
                   style={{
@@ -50,7 +50,7 @@ const Home = ({data}) => {
                 </MDBCard>
               </MDBCol>
             ) : (
-              <MDBCol sm='4'>
+              <MDBCol lg='4'>
                 {data.task_list.map((task) => {
                   if(task.done === "false") {
                     return (

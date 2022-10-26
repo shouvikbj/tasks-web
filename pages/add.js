@@ -39,8 +39,8 @@ const Add = ({data}) => {
       <h2 style={{"color": "gray"}}>{data.categoryName}</h2>
       <MDBContainer>
         <MDBRow className='mb-3'>
-          <MDBCol sm='4'></MDBCol>
-          <MDBCol sm='4'>
+          <MDBCol lg='4'></MDBCol>
+          <MDBCol lg='4'>
             <MDBCard className="mt-4" background='dark'>
               <MDBCardBody className="text-center">
                 <form onSubmit={addNewTask}>
@@ -68,7 +68,7 @@ const Add = ({data}) => {
               </MDBCardBody>
             </MDBCard>
           </MDBCol>
-          <MDBCol sm='4'></MDBCol>
+          <MDBCol lg='4'></MDBCol>
         </MDBRow>
       </MDBContainer>
     </div>
