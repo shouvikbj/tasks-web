@@ -2,8 +2,8 @@
 const nextConfig = {
   reactStrictMode: true,
   env: {
-    API: "http://localhost:5000",
-    API2: "https://tasksweb.pythonanywhere.com"
+    API2: "http://localhost:5000",
+    API: "https://tasksweb.pythonanywhere.com"
   }
 }
 
