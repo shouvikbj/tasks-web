@@ -12,7 +12,7 @@ const Layout = ({children}) => {
           <link rel="manifest" href="/manifest.json" />
           <script src="/app.js" async />
         </Head>
-        <Navbar/>
+        {/*<Navbar/> */}
         {children}
         <MDBContainer>
           <MDBRow className='mb-3'>
