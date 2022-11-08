@@ -7,8 +7,8 @@ const Footer = () => {
     <MDBFooter className='text-center fixed-bottom'>
       <MDBContainer>
         <MDBRow className='mb-3'>
-          <MDBCol xl='4'></MDBCol>
-          <MDBCol xl='4'>
+          <MDBCol xl='3'></MDBCol>
+          <MDBCol xl='6'>
             <div className='text-center p-3 m-2' style={{
               "backgroundColor": "#27292b",
               "borderRadius": "90px"
@@ -30,7 +30,7 @@ const Footer = () => {
               </Link>
             </div>
           </MDBCol>
-          <MDBCol xl='4'></MDBCol>
+          <MDBCol xl='3'></MDBCol>
         </MDBRow>
       </MDBContainer>
     </MDBFooter>
